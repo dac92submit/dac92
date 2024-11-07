@@ -1,0 +1,177 @@
+$date
+        2024-Oct-24 16:27:18
+$end
+$version
+        Vivado v2022.2 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 15 " test_i/DataPath_xN_0/U0/coreArea_0_core/sample/cnt [14:0] $end
+$var reg 15 1 test_i/DataPath_xN_0/U0/coreArea_0_core/scalarOutCnt [14:0] $end
+$var reg 1 @ test_i/DataPath_xN_0/U0/coreArea_0_core/busIn/io_bus_payload_last $end
+$var reg 1 A test_i/DataPath_xN_0/U0/coreArea_0_core/sample/logitsIn_valid $end
+$var reg 1 B test_i/DataPath_xN_0/U0/coreArea_0_core/engine/scalarOut_tvalid $end
+$var reg 1 C test_i/DataPath_xN_0/U0/coreArea_0_core/busIn/wkvFire $end
+$var reg 1 D _TRIGGER $end
+$var reg 1 E _WINDOW $end
+$var reg 1 F _GAP $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b111110011110110 "
+b111110011110111 1
+0@
+0A
+0B
+1C
+0D
+1E
+0F
+$end
+#2
+1A
+#3
+b111110011110111 "
+0A
+#20
+0C
+#21
+1C
+#27
+0C
+#28
+1C
+#32
+1B
+#33
+b111110011111000 1
+0B
+#35
+1A
+#36
+b111110011111000 "
+0A
+#54
+0C
+#55
+1C
+#66
+1B
+#67
+b111110011111001 1
+0B
+#69
+1A
+#70
+b111110011111001 "
+0A
+#87
+0C
+#89
+1C
+#99
+1B
+#100
+b111110011111010 1
+0B
+#102
+1A
+#103
+b111110011111010 "
+0A
+#121
+0C
+#122
+1C
+#133
+1B
+#134
+b111110011111011 1
+0B
+#136
+1A
+#137
+b111110011111011 "
+0A
+#154
+0C
+#155
+1C
+#156
+0C
+#166
+1B
+#167
+b111110011111100 1
+0B
+#169
+1A
+#170
+b111110011111100 "
+0A
+#200
+1B
+1D
+#201
+b111110011111101 1
+0B
+#203
+1A
+#204
+b111110011111101 "
+0A
+#233
+1B
+#234
+b111110011111110 1
+0B
+#236
+1A
+#237
+b111110011111110 "
+0A
+#290
+1C
+#298
+0C
+#312
+1C
+#335
+0C
+#336
+1C
+#367
+1@
+#368
+0C
+#404
+0@
+#414
+1B
+#415
+b111110011111111 1
+0B
+#417
+1A
+#418
+b111110011111111 "
+0A
+#447
+1B
+#448
+b111110100000000 1
+0B
+#450
+1A
+#451
+b0 "
+0A
+#453
+1C
+#580
+1@
+#581
+0C
