@@ -47,7 +47,7 @@ To build and run the project, follow these steps:
 
 ## Adjusting Test Parameters
 
-To experiment with different bandwidth utilization metrics, modify the following parameters in `BandwidthTest.v`:
+To experiment with different bandwidth utilization metrics, modify the following parameters in `helloworld.c`:
 
 - **`transfer_per_cmd`**: Adjust this parameter to set the number of transfers per command.
 - **`page_size`**: Set this to different values for page size alignment. The values `1<<14` and `1<<13` are recommended for optimal column-aligned page size.
@@ -56,4 +56,4 @@ Changing these values will yield different bandwidth utilization results, which 
 
 ---
 
-**Note**: Ensure the project is recompiled and reloaded to the hardware after making parameter changes in `BandwidthTest.v`.
+**Note**: Ensure the project is recompiled and reloaded to the hardware after making parameter changes in `helloworld.c`.
